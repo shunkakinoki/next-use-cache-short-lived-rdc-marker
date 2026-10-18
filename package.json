@@ -1,0 +1,19 @@
+{
+  "name": "next-use-cache-short-lived-rdc-marker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "next build",
+    "verify": "node verify.mjs"
+  },
+  "dependencies": {
+    "next": "16.5.0-canary.17",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.0.0",
+    "@types/react": "19.2.0",
+    "typescript": "5.9.3"
+  }
+}
